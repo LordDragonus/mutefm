@@ -1330,19 +1330,19 @@ namespace MuteFm.SmartVolManagerPackage
                                 switch (ss[1].ToLower())
                                 {
                                     case "play":
-                                        OperationHelper.SendKey("SpotifyMainWindow", null, WM_APPCOMMAND, 0, 917504);
+                                        OperationHelper.SendKey("Chrome_WidgetWin_0", null, WM_APPCOMMAND, 0, 917504);
                                         success = true;
                                         break;
                                     case "pause":
-                                        OperationHelper.SendKey("SpotifyMainWindow", null, WM_APPCOMMAND, 0, 917504);
+                                        OperationHelper.SendKey("Chrome_WidgetWin_0", null, WM_APPCOMMAND, 0, 917504);
                                         success = true;
                                         break;
                                     case "nexttrack":
-                                        OperationHelper.SendKey("SpotifyMainWindow", null, WM_APPCOMMAND, 0, 720896);
+                                        OperationHelper.SendKey("Chrome_WidgetWin_0", null, WM_APPCOMMAND, 0, 720896);
                                         success = true;
                                         break;
                                     case "previoustrack":
-                                        OperationHelper.SendKey("SpotifyMainWindow", null, WM_APPCOMMAND, 0, 786432);
+                                        OperationHelper.SendKey("Chrome_WidgetWin_0", null, WM_APPCOMMAND, 0, 786432);
                                         success = true;
                                         break;
                                 }
